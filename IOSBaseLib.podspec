@@ -25,7 +25,8 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                   DESC
+			base库和公共工具。
+                       DESC
 
   spec.homepage     = "https://github.com/583627250/IOSBaseLib.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -121,11 +122,11 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency = "SDWebImage", "~> 4.0"
-  spec.dependency = "SDVersion", "~> 2.5.2"
-  spec.dependency = "Masonry", "~> 1.0.0"
-  spec.dependency = "MCTabBarController"
-  spec.dependency = "MJRefresh"
-  spec.dependency = "BlocksKit"
+  spec.dependency "SDWebImage", "~> 4.0"
+  spec.dependency "SDVersion", "~> 2.5.2"
+  spec.dependency "Masonry", "~> 1.0.0"
+  spec.dependency "MCTabBarController"
+  spec.dependency "MJRefresh"
+  spec.dependency "BlocksKit"
 
 end
