@@ -121,9 +121,9 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency = "SDWebImage", '~> 4.0'
-  spec.dependency = "SDVersion", '~> 2.5.2'
-  spec.dependency = "Masonry", '~> 1.0.0'
+  spec.dependency = "SDWebImage", "~> 4.0"
+  spec.dependency = "SDVersion", "~> 2.5.2"
+  spec.dependency = "Masonry", "~> 1.0.0"
   spec.dependency = "MCTabBarController"
   spec.dependency = "MJRefresh"
   spec.dependency = "BlocksKit"
